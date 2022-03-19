@@ -30,6 +30,7 @@ func main() {
 	}
 
 	for day := 0; day < 5; day++ {
+		fmt.Printf("\n####### Day %d #######", day)
 		update(items)
 	}
 }
