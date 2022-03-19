@@ -9,6 +9,7 @@ go run cmd/update/main.go
 **Expected output:**
 
 ```
+####### Day 0 #######
 ------ Complex ------
 Name: Aged Brie, SellIn: 1, Quality: 1
 Name: Sulfuras, Hand of Ragnaros, SellIn: 0, Quality: 80
@@ -21,6 +22,7 @@ Name: Conjured Mana Cake, SellIn: 2, Quality: 4
 Name: +5 Dexterity Vest, SellIn: 9, Quality: 19
 Name: Elixir of the Mongoose, SellIn: 4, Quality: 6
 
+####### Day 1 #######
 ------ Complex ------
 Name: Aged Brie, SellIn: 0, Quality: 3
 Name: Sulfuras, Hand of Ragnaros, SellIn: 0, Quality: 80
@@ -33,6 +35,7 @@ Name: Conjured Mana Cake, SellIn: 1, Quality: 2
 Name: +5 Dexterity Vest, SellIn: 8, Quality: 18
 Name: Elixir of the Mongoose, SellIn: 3, Quality: 5
 
+####### Day 2 #######
 ------ Complex ------
 Name: Aged Brie, SellIn: -1, Quality: 5
 Name: Sulfuras, Hand of Ragnaros, SellIn: 0, Quality: 80
@@ -45,6 +48,7 @@ Name: Conjured Mana Cake, SellIn: 0, Quality: 0
 Name: +5 Dexterity Vest, SellIn: 7, Quality: 17
 Name: Elixir of the Mongoose, SellIn: 2, Quality: 4
 
+####### Day 3 #######
 ------ Complex ------
 Name: Aged Brie, SellIn: -2, Quality: 7
 Name: Sulfuras, Hand of Ragnaros, SellIn: 0, Quality: 80
@@ -57,6 +61,7 @@ Name: Conjured Mana Cake, SellIn: -1, Quality: 0
 Name: +5 Dexterity Vest, SellIn: 6, Quality: 16
 Name: Elixir of the Mongoose, SellIn: 1, Quality: 3
 
+####### Day 4 #######
 ------ Complex ------
 Name: Aged Brie, SellIn: -3, Quality: 9
 Name: Sulfuras, Hand of Ragnaros, SellIn: 0, Quality: 80
