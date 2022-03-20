@@ -5,9 +5,9 @@ import (
 	"gilded-rose/models"
 )
 
-// Conjured decreases the quality of an item based on a series of scenarios.
+// UpdateConjured decreases the quality of an item based on a series of scenarios.
 // It decreases the quality by two each day, and by four when time expired.
-func Conjured(items []*models.Item) []*models.Item {
+func UpdateConjured(items []*models.Item) []*models.Item {
 	for i := 0; i < len(items); i++ {
 		items[i].SellIn = items[i].SellIn - 1
 

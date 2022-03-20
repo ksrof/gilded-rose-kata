@@ -5,9 +5,9 @@ import (
 	"gilded-rose/models"
 )
 
-// Normal decreases the quality of an item based on a series of scenarios.
+// UpdateNormal decreases the quality of an item based on a series of scenarios.
 // It decreases the quality by one each day, and by two when time expired.
-func Normal(items []*models.Item) []*models.Item {
+func UpdateNormal(items []*models.Item) []*models.Item {
 	for i := 0; i < len(items); i++ {
 		items[i].SellIn = items[i].SellIn - 1
 

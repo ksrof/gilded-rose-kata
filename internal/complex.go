@@ -5,9 +5,9 @@ import (
 	"gilded-rose/models"
 )
 
-// Complex increases the quality of an item based on a series of scenarios.
+// UpdateComplex increases the quality of an item based on a series of scenarios.
 // The incrementation/decrementation of the quality is based on the name of the item.
-func Complex(items []*models.Item) []*models.Item {
+func UpdateComplex(items []*models.Item) []*models.Item {
 	for i := 0; i < len(items); i++ {
 		switch items[i].Name {
 		case "Backstage passes to a TAFKAL80ETC concert":
