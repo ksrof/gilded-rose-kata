@@ -18,8 +18,8 @@ we can begin selling a new category of `items`.
 - [x] The `Quality` of an `Item` never surpasses `50`
 - [x] The `Item` `Sulfuras, Hand of Ragnaros` its a legendary article, therefore its values are never modified
 - [x] `Backstage passes` increment its `Quality` as `SellIn` approximates
-  - [x] If there are ten days left or less for the concert `Quality` increments by `2`
-  - [x] If there are five days left or less for the concert `Quality` increments by `3`
+  - [x] If there are `10` days left or less for the concert `Quality` increments by `2`
+  - [x] If there are `5` days left or less for the concert `Quality` increments by `3`
   - [x] If the sell in time has expired `Quality` drops to `0`
 - [x] `Conjured` `Items` degrade twice as fast than the normal `Items` 
 
