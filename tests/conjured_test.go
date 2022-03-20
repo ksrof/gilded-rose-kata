@@ -15,7 +15,7 @@ func TestConjured(t *testing.T) {
 			{Name: "Conjured Mana Cake", SellIn: 3, Quality: 6},
 		}
 
-		updatedItem := internal.Conjured(conjuredItems)
+		updatedItem := internal.UpdateConjured(conjuredItems)
 
 		assert.Equal(t, "Conjured Mana Cake", updatedItem[0].Name, "name should be equal")
 		assert.Equal(t, 2, updatedItem[0].SellIn, "sellIn should decrease by one")

@@ -15,7 +15,7 @@ func TestNormal(t *testing.T) {
 			{Name: "+5 Dexterity Vest", SellIn: 10, Quality: 20},
 		}
 
-		updatedItem := internal.Normal(normalItems)
+		updatedItem := internal.UpdateNormal(normalItems)
 
 		assert.Equal(t, "+5 Dexterity Vest", updatedItem[0].Name, "name should be equal")
 		assert.Equal(t, 9, updatedItem[0].SellIn, "sellIn should decrease by one")
